@@ -1,0 +1,49 @@
+.feature-title{
+  text-align: center;
+}
+
+.features-container{
+  background-color: black;
+  display: grid;
+  height: 800px;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+.text-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.features-title{
+  background-color: lightseagreen;
+}
+
+.features-descriptoins{
+  background-color: lightsalmon;
+}
+
+.features-descriptoin{
+  width: 500px;
+}
+.features-points li{
+  margin-bottom: 20px;
+}
+
+
+
+.chair-image{
+  background-color: lightgray;
+  display: block;
+}
+
+
+.features-image{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

@@ -1,19 +1,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+:root {
+  /*===== Colors =====*/
+  --page-clr : #262C4C;
+  --text-clr: white;
+  
+
+}
+
+
+/* Responsive Typography */
+@media screen and (max-width: 1024px) {
+  :root {
+      --biggest-font-size: 2rem;
+      --h1-font-size: 1.5rem;
+      --h2-font-size: 1.25rem;
+      --h3-font-size: 1.125rem;
+      --normal-font-size: .938rem;
+      --small-font-size: .813rem;
+      --smaller-font-size: .75rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 body{
   background-color: #262C4C;
-  color: white;
+  color: var(--text-clr);
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: var(--normal-font-size);
   font-style: normal;
   margin: 0;
   padding: 0;
+  margin-left: 30px;
 
 }
 
 a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   
 }
