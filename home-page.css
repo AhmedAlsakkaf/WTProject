@@ -1,0 +1,45 @@
+.home-page-container{
+  background-color: lightsteelblue;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.text-sectoin h1{
+  font-size: 55px;
+  margin-left: 25px;
+}
+
+.text-sectoin p{
+  margin-left: 25px;
+}
+
+.learn-more-button, .sign-in-button{
+  width: 150px;
+  margin-left: 25px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: var(--normal-font-size);
+  font-weight: bold;
+}
+
+
+
+.learn-more-button{
+  color: var(--page-clr);
+  border: none;
+
+}
+
+
+.sign-in-button{
+  color: var(--text-clr);
+  background-color: var(--page-clr);
+  border-color: var(--text-clr);
+  border: solid;
+  border-width: 3px;
+  border-color: white;
+}
