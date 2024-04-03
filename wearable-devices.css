@@ -1,0 +1,64 @@
+
+.wearable-devices-container{
+  display: grid;
+  grid-template-rows: 2;
+}
+
+.upper-part{
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 600px;
+  
+}
+
+
+.lower-part{
+  background-color: lightgreen;
+  height: 350px;
+}
+
+
+.first{
+  align-content: center;
+}
+
+.wearable2{
+  width: 400px;
+  float: inline-end;
+  margin-bottom: -200px;
+
+}
+
+
+.second{
+  align-content: center;
+}
+
+.second h2{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.second p{
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+
+
+.wearable1{
+  width: 400px;
+  float: inline-start;
+  margin-top: -10px;
+}
+
+
+
+.wearable3{
+  width: 400px;
+  float: inline-end;
+  margin-right: 100px;
+}

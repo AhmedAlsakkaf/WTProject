@@ -7,6 +7,7 @@
   display: grid;
   height: 800px;
   grid-template-rows: 1fr 1fr;
+  margin-bottom: 100px;
 
 
 }
@@ -36,6 +37,7 @@
 .chair-image{
   background-color: lightgray;
   display: block;
+  align-content: center;
 }
 
 
@@ -45,5 +47,21 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+
+.explore-more{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--logo-clr);
+  color: var(--page-clr);
+  font-size: 15px;
+  font-weight: bold;
+
 }
 

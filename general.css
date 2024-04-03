@@ -6,7 +6,7 @@
   /*===== Colors =====*/
   --page-clr : #262C4C;
   --text-clr: white;
-  
+  --logo-clr: rgb(181, 179, 207);
 
 }
 
@@ -43,6 +43,7 @@ body{
   margin: 0;
   padding: 0;
   margin-left: 30px;
+  margin-right: 30px;
 
 }
 
